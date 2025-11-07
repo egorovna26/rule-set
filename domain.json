@@ -5,7 +5,8 @@
       "domain": [
         "gstatic.com",
         "news.google.com"
-      ]
+      ],
+      "domain_suffix": []
     }
   ]
 }
