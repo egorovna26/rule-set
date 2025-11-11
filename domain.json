@@ -3,8 +3,7 @@
   "rules": [
     {
       "domain": [
-        "gstatic.com",
-        "news.google.com"
+        "gstatic.com"
       ],
       "domain_suffix": [
         ".gstatic.com",
