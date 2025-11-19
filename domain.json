@@ -3,11 +3,13 @@
   "rules": [
     {
       "domain": [
-        "gstatic.com"
+        "gstatic.com",
+        "toil.cc"
       ],
       "domain_suffix": [
         ".gstatic.com",
-        ".google.com"
+        ".google.com",
+        ".toil.cc"
       ]
     }
   ]
