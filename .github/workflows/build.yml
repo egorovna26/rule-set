@@ -14,3 +14,5 @@ jobs:
     steps:
       - name: Checkout sources
         uses: actions/checkout@v6
+      - name: Install sing-box
+        run: curl -fsSL https://sing-box.app/install.sh | sh
