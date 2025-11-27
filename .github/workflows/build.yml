@@ -22,8 +22,7 @@ jobs:
         run: sing-box rule-set compile --output ip_cidr.srs ip_cidr.json
       - name: Set up variables
         id: vars
-        run: |
-          echo "date_now=$(date +"%Y-%m-%d %T")" >> "${GITHUB_OUTPUT}"
+        run: echo "date_now=$(date +"%Y_%m_%d_%H_%M_%S")" >> "${GITHUB_OUTPUT}"
       - name: Upload files to Releases
         uses: ncipollo/release-action@v1
         with:
@@ -31,8 +30,7 @@ jobs:
           artifactErrorsFailBuild: true
           artifacts: ./*.srs
           body: |
-            - Last build date: `${{steps.vars.outputs.date_now}}`
             - Reference commit: ${{github.sha}}
-          name: Development build
+          name: ${{steps.vars.outputs.date_now}}
           removeArtifacts: true
-          tag: dev-build
+          tag: ${{steps.vars.outputs.date_now}}
