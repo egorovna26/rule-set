@@ -4,12 +4,14 @@
     {
       "domain": [
         "gstatic.com",
-        "toil.cc"
+        "toil.cc",
+        "rottentomatoes.com"
       ],
       "domain_suffix": [
         ".gstatic.com",
         ".google.com",
-        ".toil.cc"
+        ".toil.cc",
+        ".rottentomatoes.com"
       ]
     }
   ]
