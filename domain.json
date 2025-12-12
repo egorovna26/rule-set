@@ -6,14 +6,16 @@
         "gstatic.com",
         "toil.cc",
         "rottentomatoes.com",
-        "adguard.com"
+        "adguard.com",
+        "adtidy.org"
       ],
       "domain_suffix": [
         ".gstatic.com",
         ".google.com",
         ".toil.cc",
         ".rottentomatoes.com",
-        ".adguard.com"
+        ".adguard.com",
+        ".adtidy.org"
       ]
     }
   ]
