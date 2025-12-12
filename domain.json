@@ -5,13 +5,15 @@
       "domain": [
         "gstatic.com",
         "toil.cc",
-        "rottentomatoes.com"
+        "rottentomatoes.com",
+        "adguard.com"
       ],
       "domain_suffix": [
         ".gstatic.com",
         ".google.com",
         ".toil.cc",
-        ".rottentomatoes.com"
+        ".rottentomatoes.com",
+        ".adguard.com"
       ]
     }
   ]
