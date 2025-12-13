@@ -8,7 +8,8 @@
         "rottentomatoes.com",
         "adguard.com",
         "adtidy.org",
-        "flixster.com"
+        "flixster.com",
+        "fandango.com"
       ],
       "domain_suffix": [
         ".gstatic.com",
@@ -17,7 +18,8 @@
         ".rottentomatoes.com",
         ".adguard.com",
         ".adtidy.org",
-        ".flixster.com"
+        ".flixster.com",
+        ".fandango.com"
       ]
     }
   ]
