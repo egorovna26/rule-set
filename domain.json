@@ -9,7 +9,8 @@
         "adguard.com",
         "adtidy.org",
         "flixster.com",
-        "fandango.com"
+        "fandango.com",
+        "chartbeat.com"
       ],
       "domain_suffix": [
         ".gstatic.com",
@@ -19,7 +20,8 @@
         ".adguard.com",
         ".adtidy.org",
         ".flixster.com",
-        ".fandango.com"
+        ".fandango.com",
+        ".chartbeat.com"
       ]
     }
   ]
