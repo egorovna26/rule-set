@@ -10,7 +10,8 @@
         "adtidy.org",
         "flixster.com",
         "fandango.com",
-        "chartbeat.com"
+        "chartbeat.com",
+        "poiskvps.ru"
       ],
       "domain_suffix": [
         ".gstatic.com",
@@ -21,7 +22,8 @@
         ".adtidy.org",
         ".flixster.com",
         ".fandango.com",
-        ".chartbeat.com"
+        ".chartbeat.com",
+        ".poiskvps.ru"
       ]
     }
   ]
