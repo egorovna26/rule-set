@@ -12,7 +12,8 @@
         "fandango.com",
         "chartbeat.com",
         "poiskvps.ru",
-        "hyperioxes.com"
+        "hyperioxes.com",
+        "elderscrollsonline.com"
       ],
       "domain_suffix": [
         ".gstatic.com",
@@ -25,7 +26,8 @@
         ".fandango.com",
         ".chartbeat.com",
         ".poiskvps.ru",
-        ".hyperioxes.com"
+        ".hyperioxes.com",
+        ".elderscrollsonline.com"
       ]
     }
   ]
