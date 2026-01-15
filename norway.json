@@ -3,7 +3,9 @@
   "rules": [
     {
       "domain": [],
-      "domain_suffix": [],
+      "domain_suffix": [
+        ".no"
+      ],
       "domain_keyword": [
         "nrk"
       ]
