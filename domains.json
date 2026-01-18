@@ -13,7 +13,8 @@
         "chartbeat.com",
         "poiskvps.ru",
         "hyperioxes.com",
-        "elderscrollsonline.com"
+        "elderscrollsonline.com",
+        "elgato.com"
       ],
       "domain_suffix": [
         ".gstatic.com",
@@ -27,7 +28,8 @@
         ".chartbeat.com",
         ".poiskvps.ru",
         ".hyperioxes.com",
-        ".elderscrollsonline.com"
+        ".elderscrollsonline.com",
+        ".elgato.com"
       ]
     }
   ]
