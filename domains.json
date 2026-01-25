@@ -14,7 +14,8 @@
         "poiskvps.ru",
         "hyperioxes.com",
         "elderscrollsonline.com",
-        "elgato.com"
+        "elgato.com",
+        "amazonaws.com"
       ],
       "domain_suffix": [
         ".gstatic.com",
@@ -29,10 +30,12 @@
         ".poiskvps.ru",
         ".hyperioxes.com",
         ".elderscrollsonline.com",
-        ".elgato.com"
+        ".elgato.com",
+        ".amazonaws.com"
       ],
       "domain_keyword": [
-        "norestforthewicked"
+        "norestforthewicked",
+        "amazonaws"
       ]
     }
   ]
