@@ -2,45 +2,12 @@
   "version": 3,
   "rules": [
     {
-      "domain": [
-        "gstatic.com",
-        "toil.cc",
-        "rottentomatoes.com",
-        "adguard.com",
-        "adtidy.org",
-        "flixster.com",
-        "fandango.com",
-        "chartbeat.com",
-        "poiskvps.ru",
-        "hyperioxes.com",
-        "elderscrollsonline.com",
-        "elgato.com",
-        "amazonaws.com",
-        "fextralife.com",
-        "picrew.me"
-      ],
+      "domain": [],
       "domain_suffix": [
-        ".gstatic.com",
-        ".google.com",
-        ".toil.cc",
-        ".rottentomatoes.com",
-        ".adguard.com",
-        ".adtidy.org",
-        ".flixster.com",
-        ".fandango.com",
-        ".chartbeat.com",
-        ".poiskvps.ru",
-        ".hyperioxes.com",
-        ".elderscrollsonline.com",
-        ".elgato.com",
-        ".amazonaws.com",
-        ".fextralife.com",
-        ".picrew.me"
+        "battle.net",
+        "blizzard.com"
       ],
-      "domain_keyword": [
-        "norestforthewicked",
-        "amazonaws"
-      ]
+      "domain_keyword": []
     }
   ]
 }
