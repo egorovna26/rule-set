@@ -39,8 +39,3 @@ jobs:
           name: ${{steps.vars.outputs.date_now}}
           removeArtifacts: true
           tag: ${{steps.vars.outputs.date_now}}
-      - name: Keep only the last 1 release
-        uses: eregon/keep-last-n-releases@v1
-        with:
-          n: 1
-          token: ${{ secrets.GITHUB_TOKEN }}
