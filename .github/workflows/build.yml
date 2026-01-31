@@ -43,3 +43,4 @@ jobs:
         uses: eregon/keep-last-n-releases@v1
         with:
           n: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
