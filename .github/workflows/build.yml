@@ -42,5 +42,4 @@ jobs:
       - name: Keep only the last 1 release
         uses: eregon/keep-last-n-releases@v1
         with:
-          keep_last: 1
-          token: ${{ secrets.GITHUB_TOKEN }}
+          n: 1
