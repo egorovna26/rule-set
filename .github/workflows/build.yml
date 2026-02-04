@@ -22,8 +22,6 @@ jobs:
         run: sing-box rule-set compile --output domains.srs domains.json
       - name: Compile subnets.srs
         run: sing-box rule-set compile --output subnets.srs subnets.json
-      - name: Compile norway.srs
-        run: sing-box rule-set compile --output norway.srs norway.json
       - name: Set up variables
         id: vars
         run: echo "date_now=$(date +"%Y_%m_%d_%H_%M_%S")" >> "${GITHUB_OUTPUT}"
