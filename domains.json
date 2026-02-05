@@ -3,13 +3,16 @@
   "rules": [
     {
       "domain": [
-        "fextralife.com"
+        "fextralife.com",
+        "toil.cc"
       ],
       "domain_suffix": [
-        ".fextralife.com"
+        ".fextralife.com",
+        ".toil.cc"
       ],
       "domain_keyword": [
-        "fextralife"
+        "fextralife",
+        "toil"
       ]
     }
   ]
