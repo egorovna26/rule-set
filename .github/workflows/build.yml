@@ -33,6 +33,6 @@ jobs:
           body: |
             - Last build date: `${{steps.vars.outputs.date_now}}`
             - Reference commit: ${{github.sha}}
-          name: Development build
+          name: Updatable rule sets
           removeArtifacts: true
-          tag: dev-build
+          tag: updatable-rule-sets
