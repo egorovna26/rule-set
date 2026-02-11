@@ -1,0 +1,31 @@
+name: Update subnets
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '0 0 * * 1'
+
+permissions:
+  contents: write
+
+jobs:
+  linux-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v6
+      - name: Setup Java
+        uses: actions/setup-java@v5
+        with:
+          java-version: '17'
+          distribution: 'oracle'
+          java-package: 'jdk'
+          architecture: 'x64'
+      - run: |
+          java -jar ip-ranges.jar
+      - name: Push subnets
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: 'Update subnets'
