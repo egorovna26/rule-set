@@ -31,7 +31,8 @@ jobs:
           artifactErrorsFailBuild: true
           artifacts: ./*.srs
           body: |
+            - Last build date: `${{steps.vars.outputs.date_now}}`
             - Reference commit: ${{github.sha}}
-          name: ${{steps.vars.outputs.date_now}}
+          name: Development build
           removeArtifacts: true
-          tag: ${{steps.vars.outputs.date_now}}
+          tag: dev-build
