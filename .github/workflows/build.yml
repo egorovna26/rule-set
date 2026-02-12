@@ -1,5 +1,4 @@
-name: Development build
-
+name: Build rule sets
 on:
   push:
   workflow_run:
