@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  linux-build:
+  update-subnets:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout sources
