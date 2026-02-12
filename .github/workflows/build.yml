@@ -3,6 +3,7 @@ name: Development build
 on:
   push:
   workflow_run:
+    workflows: "Update subnets"
     types: completed
 
 permissions:
