@@ -12,6 +12,10 @@ jobs:
   linux-build:
     runs-on: ubuntu-latest
     steps:
+      - name: Set timezone to Asia/Singapore
+        uses: szenius/set-timezone@v2.0
+        with:
+          timezoneLinux: "Asia/Krasnoyarsk"
       - name: Checkout sources
         uses: actions/checkout@v6
       - name: Install sing-box
