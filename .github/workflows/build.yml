@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  linux-build:
+  generate-rule-sets:
     runs-on: ubuntu-latest
     steps:
       - name: Set timezone to Asia/Singapore
