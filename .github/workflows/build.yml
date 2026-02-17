@@ -1,6 +1,9 @@
 name: Build rule sets
 on:
+  workflow_dispatch:
   push:
+  schedule:
+    - cron: '0 0 * * *'
 
 permissions:
   contents: write
@@ -15,6 +18,19 @@ jobs:
           timezoneLinux: "Europe/Moscow"
       - name: Checkout sources
         uses: actions/checkout@v6
+      - name: Update subnets
+        uses: actions/setup-java@v5
+        with:
+          java-version: '17'
+          distribution: 'oracle'
+          java-package: 'jdk'
+          architecture: 'x64'
+      - run: |
+          java -jar ip-ranges.jar
+      - name: Push subnets
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: 'Update subnets'
       - name: Install sing-box
         run: curl -fsSL https://sing-box.app/install.sh | sh
       - name: Compile domains.srs
