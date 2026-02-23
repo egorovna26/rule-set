@@ -12,7 +12,7 @@ jobs:
   generate-rule-sets:
     runs-on: ubuntu-latest
     steps:
-      - name: Set timezone to Asia/Singapore
+      - name: Set timezone to Europe/Moscow
         uses: szenius/set-timezone@v2.0
         with:
           timezoneLinux: "Europe/Moscow"
